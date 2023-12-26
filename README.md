@@ -4,7 +4,8 @@ AnyTrading is a collection of OpenAI Gym environments for reinforcement learning
 Trading algorithms are mostly implemented in two markets: FOREX and Stock. AnyTrading aims to provide some Gym environments to improve and facilitate the procedure of developing and testing RL-based algorithms in this area. This purpose is obtained by implementing three Gym environments: TradingEnv, ForexEnv, and StocksEnv.
 
 TradingEnv is an abstract environment which is defined to support all kinds of trading environments. ForexEnv and StocksEnv are simply two environments that inherit and extend TradingEnv. 
-![Uploading Ekran Resmi 2023-12-26 23.52.02.png…]()
+
+<img width="1094" alt="Ekran Resmi 2023-12-26 23 52 02" src="https://github.com/tekgulburak/Stock-Trading-Gym-Apple-Data-/assets/108903426/5f0968cf-7960-4d9a-bc99-bd283c90a5f0">
 
 **Trading Actions**
 If you search on the Internet for trading algorithms, you will find them using numerous actions such as Buy, Sell, Hold, Enter, Exit, etc. Referring to the first statement of this section, a typical RL agent can only solve a part of the main problem in this area. If you work in trading markets you will learn that deciding whether to hold, enter, or exit a pair (in FOREX) or stock (in Stocks) is a statistical decision depending on many parameters such as your budget, pairs or stocks you trade, your money distribution policy in multiple markets, etc. It's a massive burden for an RL agent to consider all these parameters and may take years to develop such an agent! In this case, you certainly will not use this environment but you will extend your own.
